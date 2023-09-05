@@ -21,20 +21,20 @@
   </head>
 
   <body>
-    <header>
+    <header class="web-header">
       <div class="container">
-        <nav>
+        <nav class="header-nav">
           <a href="./index.html" class="logo"
             >Web<span class="studio-logo">Studio</span></a
           >
-          <ul>
+          <ul class="nav-menu">
             <li><a class="navigation" href="./index.html">Studio</a></li>
             <li><a class="navigation" href="">Portfolio</a></li>
             <li><a class="navigation" href="">Contacts</a></li>
           </ul>
         </nav>
         <address>
-          <ul class="address-link">
+          <ul class="nav-menu">
             <li>
               <a class="mailto" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -63,30 +63,30 @@
       <section class="section">
         <div class="container">
           <!--hidden header-->
-          <h2>Advantages</h2>
-          <ul>
-            <li>
+          <h2 class="visually-hidden">Advantages</h2>
+          <ul class="Advantages">
+            <li class="card-list">
               <h3 class="card-header">Strategy</h3>
               <p class="card-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="card-list">
               <h3 class="card-header">Punctuality</h3>
               <p class="card-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="card-list">
               <h3 class="card-header">Diligence</h3>
               <p class="card-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="card-list">
               <h3 class="card-header">Technologies</h3>
               <p class="card-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -101,20 +101,24 @@
       <section class="team">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
-          <ul>
+          <ul class="team-card">
             <li class="back">
               <img
                 src="./images/img_1.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
               />
-              <h3 class="card-header">Mark Guerrero</h3>
-              <p class="card-text">Product Designer</p>
+              <div class="card-block">
+                <h3 class="card-header">Mark Guerrero</h3>
+                <p class="card-text">Product Designer</p>
+              </div>
             </li>
             <li class="back">
               <img src="./images/img_2.jpg" alt=" photo Tom Ford" width="264" />
-              <h3 class="card-header">Tom Ford</h3>
-              <p class="card-text">Frontend Developer</p>
+              <div class="card-block">
+                <h3 class="card-header">Tom Ford</h3>
+                <p class="card-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="back">
               <img
@@ -122,8 +126,10 @@
                 alt="photo Camila Garcia"
                 width="264"
               />
-              <h3 class="card-header">Camila Garcia</h3>
-              <p class="card-text">Marketing</p>
+              <div class="card-block">
+                <h3 class="card-header">Camila Garcia</h3>
+                <p class="card-text">Marketing</p>
+              </div>
             </li>
             <li class="back">
               <img
@@ -131,8 +137,10 @@
                 alt="photo Daniel Wilson"
                 width="264"
               />
-              <h3 class="card-header">Daniel Wilson</h3>
-              <p class="card-text">UI Designer</p>
+              <div class="card-block">
+                <h3 class="card-header">Daniel Wilson</h3>
+                <p class="card-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -142,52 +150,69 @@
       <section class="section">
         <div class="container">
           <h2 class="team-header">Our Portfolio</h2>
-          <ul>
-            <li>
+
+          <ul class="portfolio-list">
+            <li class="porfolio-list">
               <img src="./images/banking.jpg" alt="Banking App" width="360" />
-              <h3 class="card-header">Banking App</h3>
-              <p class="card-text">App</p>
+
+              <div class="text-box">
+                <h3 class="card-header">Banking App</h3>
+                <p class="card-text">App</p>
+              </div>
             </li>
-            <li>
+
+            <li class="porfolio-list">
               <img
                 src="./images/cashless.jpg"
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="card-header">Cashless Payment</h3>
-              <p class="card-text">Marketing</p>
+
+              <div class="text-box">
+                <h3 class="card-header">Cashless Payment</h3>
+                <p class="card-text">Marketing</p>
+              </div>
             </li>
-            <li>
+
+            <li class="porfolio-list">
               <img
                 src="./images/maditation.jpg"
                 alt="Meditaion App"
                 width="360"
               />
-              <h3 class="card-header">Meditation App</h3>
-              <p class="card-text">App</p>
+              <div class="text-box">
+                <h3 class="card-header">Meditation App</h3>
+                <p class="card-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="porfolio-list">
               <img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
-              <h3 class="card-header">Taxi Service</h3>
-              <p class="card-text">Marketing</p>
+              <div class="text-box">
+                <h3 class="card-header">Taxi Service</h3>
+                <p class="card-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="porfolio-list">
               <img
                 src="./images/screen.jpg"
                 alt="Screen Illustration"
                 width="360"
               />
-              <h3 class="card-header">Screen Illustrations</h3>
-              <p class="card-text">Design</p>
+              <div class="text-box">
+                <h3 class="card-header">Screen Illustrations</h3>
+                <p class="card-text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="porfolio-list">
               <img
                 src="./images/courses.jpg"
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="card-header">Online Courses</h3>
-              <p class="card-text">Marketing</p>
+              <div class="text-box">
+                <h3 class="card-header">Online Courses</h3>
+                <p class="card-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>

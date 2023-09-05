@@ -34,14 +34,17 @@ a {
   display: block;
 }
 
+img {
+  display: block;
+}
+
 /* container settings */
 .container {
   max-width: 1158px;
-
-  /* padding-left: 
-  padding-right:   */
+  margin: 0 auto;
   margin-left: 156px;
   margin-right: 156px;
+  padding: 0 15px 0 15px;
 }
 
 /* Logo */
@@ -53,6 +56,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .studio-logo {
@@ -65,7 +69,22 @@ a {
   text-transform: uppercase;
 }
 
+.web-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* Navigations elements */
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px;
+}
+
 .navigation {
   font-size: 16px;
   font-weight: 500;
@@ -79,11 +98,8 @@ a {
   color: #404bbf;
 }
 
-.nav {
-  display: inline-block;
-}
-
 /* Adress */
+
 .address-text {
   font-style: normal;
 }
@@ -117,6 +133,7 @@ address li a {
   line-height: 1.07;
   color: #fff;
   text-align: center;
+  max-width: 496px;
 }
 
 .solutions-button {
@@ -128,6 +145,11 @@ address li a {
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .solutions-button:hover,
@@ -136,24 +158,52 @@ address li a {
 }
 
 /* Section-2 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.Advantages {
+  gap: 24px;
+}
+
+.card-list {
+  width: calc((100% - 72px) / 4);
+}
+
 .card-header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .card-text {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  text-align: center;
 }
 
 /* Section-3 */
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.team-card {
+  gap: 24px;
 }
 
 .team-header {
@@ -164,13 +214,47 @@ address li a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .back {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-block {
+  padding: 32px 0;
+}
+
+/* Section-4 */
+
+.portfolio-list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.text-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.porfolio-list {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Footer */
+footer.solutions-unit {
+  padding: 100px 0;
+}
+
+.container.logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .foot-text {
   font-size: 16px;
   line-height: 24px; /* 150% */
