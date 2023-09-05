@@ -1,7 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 
 a {
@@ -10,6 +25,23 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+a {
+  display: block;
+}
+
+/* container settings */
+.container {
+  max-width: 1158px;
+
+  /* padding-left: 
+  padding-right:   */
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 /* Logo */
@@ -47,6 +79,10 @@ ul {
   color: #404bbf;
 }
 
+.nav {
+  display: inline-block;
+}
+
 /* Adress */
 .address-text {
   font-style: normal;
@@ -64,9 +100,14 @@ address li a {
   color: #404bbf;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 /* Section-1 */
 .solutions-unit {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .solutions-header {
@@ -112,6 +153,7 @@ address li a {
 /* Section-3 */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-header {
