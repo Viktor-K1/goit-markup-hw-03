@@ -21,7 +21,6 @@ h5 {
 
 a {
   text-decoration: none;
-  display: block;
 }
 
 ul {
@@ -31,6 +30,9 @@ ul {
   display: flex;
 }
 
+a {
+  display: block;
+}
 
 img {
   display: block;
@@ -38,12 +40,12 @@ img {
 
 /* container settings */
 .container {
+  display: flex;
   max-width: 1158px;
   margin: 0 auto;
   margin-left: 156px;
   margin-right: 156px;
   padding: 0 15px 0 15px;
-  display: flex;
 }
 
 /* Logo */
@@ -81,7 +83,7 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding: 24px;
 }
 
 .navigation {
@@ -249,10 +251,18 @@ footer.solutions-unit {
   padding: 100px 0;
 }
 
-/* footer > .container > .logo {
+.bottom-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
-} */
+}
 
 .foot-text {
   font-size: 16px;
