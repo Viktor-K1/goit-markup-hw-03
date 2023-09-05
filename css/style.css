@@ -40,12 +40,15 @@ img {
 
 /* container settings */
 .container {
-  display: flex;
   max-width: 1158px;
   margin: 0 auto;
   margin-left: 156px;
   margin-right: 156px;
   padding: 0 15px 0 15px;
+}
+
+.top {
+  display: flex;
 }
 
 /* Logo */
@@ -251,15 +254,7 @@ footer.solutions-unit {
   padding: 100px 0;
 }
 
-.bottom-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
+.bottom {
   display: inline-block;
   margin-bottom: 16px;
 }
