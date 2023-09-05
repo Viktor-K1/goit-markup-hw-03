@@ -21,6 +21,7 @@ h5 {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 ul {
@@ -30,9 +31,6 @@ ul {
   display: flex;
 }
 
-a {
-  display: block;
-}
 
 img {
   display: block;
@@ -45,6 +43,7 @@ img {
   margin-left: 156px;
   margin-right: 156px;
   padding: 0 15px 0 15px;
+  display: flex;
 }
 
 /* Logo */
@@ -82,7 +81,7 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .navigation {
@@ -171,7 +170,7 @@ address li a {
   overflow: hidden;
 }
 
-.Advantages {
+.advantages {
   gap: 24px;
 }
 
@@ -250,10 +249,10 @@ footer.solutions-unit {
   padding: 100px 0;
 }
 
-.container.logo {
+/* footer > .container > .logo {
   display: inline-block;
   margin-bottom: 16px;
-}
+} */
 
 .foot-text {
   font-size: 16px;
